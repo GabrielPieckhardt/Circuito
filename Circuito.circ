@@ -63,6 +63,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(90,260)" to="(410,260)"/>
     <wire from="(90,340)" to="(410,340)"/>
     <wire from="(90,180)" to="(410,180)"/>
+    <wire from="(170,80)" to="(170,400)"/>
     <wire from="(690,360)" to="(690,680)"/>
     <wire from="(670,220)" to="(670,290)"/>
     <wire from="(610,380)" to="(650,380)"/>
@@ -112,9 +113,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(750,230)" to="(960,230)"/>
     <wire from="(860,530)" to="(890,530)"/>
     <wire from="(690,140)" to="(700,140)"/>
-    <wire from="(90,200)" to="(410,200)"/>
     <wire from="(90,280)" to="(410,280)"/>
     <wire from="(90,360)" to="(410,360)"/>
+    <wire from="(90,200)" to="(410,200)"/>
     <wire from="(560,260)" to="(560,270)"/>
     <wire from="(670,220)" to="(710,220)"/>
     <wire from="(740,530)" to="(780,530)"/>
@@ -123,12 +124,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(60,240)" to="(60,260)"/>
     <wire from="(60,320)" to="(60,340)"/>
     <wire from="(90,120)" to="(130,120)"/>
+    <wire from="(130,400)" to="(170,400)"/>
+    <wire from="(130,80)" to="(170,80)"/>
     <wire from="(60,100)" to="(90,100)"/>
     <wire from="(700,160)" to="(700,200)"/>
     <wire from="(60,180)" to="(90,180)"/>
     <wire from="(60,260)" to="(90,260)"/>
     <wire from="(60,340)" to="(90,340)"/>
-    <wire from="(130,400)" to="(220,400)"/>
     <wire from="(520,250)" to="(540,250)"/>
     <wire from="(750,400)" to="(770,400)"/>
     <wire from="(700,360)" to="(700,650)"/>
@@ -141,6 +143,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(890,480)" to="(940,480)"/>
     <wire from="(920,460)" to="(920,530)"/>
     <wire from="(1040,350)" to="(1040,610)"/>
+    <wire from="(170,400)" to="(220,400)"/>
     <wire from="(660,200)" to="(660,290)"/>
     <wire from="(410,80)" to="(410,100)"/>
     <wire from="(410,160)" to="(410,180)"/>
@@ -204,10 +207,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(930,540)" to="(930,550)"/>
     <wire from="(1100,230)" to="(1100,260)"/>
     <wire from="(410,100)" to="(410,120)"/>
-    <wire from="(410,180)" to="(410,200)"/>
     <wire from="(410,260)" to="(410,280)"/>
     <wire from="(410,340)" to="(410,360)"/>
     <wire from="(660,200)" to="(700,200)"/>
+    <wire from="(410,180)" to="(410,200)"/>
     <wire from="(90,100)" to="(90,120)"/>
     <wire from="(90,180)" to="(90,200)"/>
     <wire from="(90,260)" to="(90,280)"/>
@@ -245,16 +248,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(730,150)" to="(730,190)"/>
     <wire from="(60,40)" to="(60,80)"/>
     <wire from="(130,160)" to="(410,160)"/>
-    <wire from="(130,80)" to="(410,80)"/>
     <wire from="(1000,530)" to="(1000,650)"/>
     <wire from="(930,550)" to="(940,550)"/>
     <wire from="(960,230)" to="(1100,230)"/>
     <wire from="(700,160)" to="(710,160)"/>
     <wire from="(760,320)" to="(760,500)"/>
     <wire from="(410,120)" to="(410,140)"/>
-    <wire from="(410,200)" to="(410,220)"/>
     <wire from="(410,280)" to="(410,300)"/>
     <wire from="(410,360)" to="(410,380)"/>
+    <wire from="(410,200)" to="(410,220)"/>
+    <wire from="(170,80)" to="(410,80)"/>
     <wire from="(720,280)" to="(760,280)"/>
     <wire from="(90,120)" to="(90,140)"/>
     <wire from="(90,200)" to="(90,220)"/>
@@ -284,8 +287,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(110,253)" name="Text">
       <a name="text" val="NOT"/>
     </comp>
-    <comp lib="6" loc="(174,177)" name="Text">
-      <a name="text" val="AC &lt;= AC-X"/>
+    <comp lib="6" loc="(207,394)" name="Text">
+      <a name="text" val="M(X) &lt;= AC"/>
+    </comp>
+    <comp lib="6" loc="(149,95)" name="Text">
+      <a name="text" val="000 0"/>
+    </comp>
+    <comp lib="6" loc="(148,175)" name="Text">
+      <a name="text" val="010 0"/>
     </comp>
     <comp lib="6" loc="(74,215)" name="Text">
       <a name="text" val="6"/>
@@ -314,6 +323,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(108,175)" name="Text">
       <a name="text" val="SUB"/>
     </comp>
+    <comp lib="6" loc="(221,296)" name="Text">
+      <a name="text" val="AC &lt;=  AC &lt;&lt; Q"/>
+    </comp>
+    <comp lib="6" loc="(148,374)" name="Text">
+      <a name="text" val="111 0"/>
+    </comp>
     <comp lib="6" loc="(109,394)" name="Text">
       <a name="text" val="STR"/>
     </comp>
@@ -322,6 +337,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="6" loc="(108,234)" name="Text">
       <a name="text" val="OR"/>
+    </comp>
+    <comp lib="6" loc="(149,194)" name="Text">
+      <a name="text" val="010 1"/>
     </comp>
     <comp lib="0" loc="(780,390)" name="Probe">
       <a name="facing" val="south"/>
@@ -341,19 +359,28 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="radix" val="10unsigned"/>
     </comp>
+    <comp lib="6" loc="(149,114)" name="Text">
+      <a name="text" val="000 1"/>
+    </comp>
     <comp lib="1" loc="(1100,290)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="6" loc="(219,157)" name="Text">
+      <a name="text" val="AC &lt;= AC+M(X)"/>
+    </comp>
     <comp lib="6" loc="(76,193)" name="Text">
       <a name="text" val="5"/>
+    </comp>
+    <comp lib="6" loc="(149,336)" name="Text">
+      <a name="text" val="110 0"/>
     </comp>
     <comp lib="6" loc="(112,275)" name="Text">
       <a name="text" val="NOT"/>
     </comp>
     <comp loc="(820,570)" name="AC"/>
     <comp loc="(720,140)" name="IR"/>
-    <comp lib="6" loc="(176,115)" name="Text">
-      <a name="text" val="AC &lt;= M(X) "/>
+    <comp lib="6" loc="(227,234)" name="Text">
+      <a name="text" val="AC &lt;= AR OR M(X)"/>
     </comp>
     <comp lib="4" loc="(670,140)" name="ROM">
       <a name="addrWidth" val="4"/>
@@ -365,17 +392,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(75,392)" name="Text">
       <a name="text" val="F"/>
     </comp>
-    <comp lib="6" loc="(194,353)" name="Text">
-      <a name="text" val="PC &lt;= X SE FLAG O"/>
-    </comp>
     <comp lib="6" loc="(109,156)" name="Text">
       <a name="text" val="ADD"/>
     </comp>
-    <comp lib="6" loc="(186,157)" name="Text">
-      <a name="text" val="AC &lt;= AC+M(X)"/>
+    <comp lib="6" loc="(147,395)" name="Text">
+      <a name="text" val="111 1"/>
+    </comp>
+    <comp lib="6" loc="(223,253)" name="Text">
+      <a name="text" val="AC &lt;= AR NOT X"/>
+    </comp>
+    <comp lib="6" loc="(148,253)" name="Text">
+      <a name="text" val="100 0"/>
     </comp>
     <comp lib="6" loc="(74,175)" name="Text">
       <a name="text" val="4"/>
+    </comp>
+    <comp lib="6" loc="(149,135)" name="Text">
+      <a name="text" val="001 0"/>
     </comp>
     <comp lib="6" loc="(74,296)" name="Text">
       <a name="text" val="A"/>
@@ -385,11 +418,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="max" val="0xf"/>
       <a name="trigger" val="falling"/>
     </comp>
+    <comp lib="6" loc="(149,353)" name="Text">
+      <a name="text" val="110 1 "/>
+    </comp>
     <comp lib="6" loc="(75,353)" name="Text">
       <a name="text" val="D"/>
     </comp>
-    <comp lib="6" loc="(178,138)" name="Text">
-      <a name="text" val="AC &lt;= AC+X "/>
+    <comp lib="6" loc="(149,315)" name="Text">
+      <a name="text" val="101 1"/>
     </comp>
     <comp loc="(830,460)" name="ULA"/>
     <comp lib="1" loc="(520,250)" name="NOT Gate">
@@ -402,54 +438,69 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(75,152)" name="Text">
       <a name="text" val="3"/>
     </comp>
+    <comp lib="6" loc="(231,355)" name="Text">
+      <a name="text" val="PC &lt;= X SE FLAG O"/>
+    </comp>
+    <comp lib="6" loc="(218,194)" name="Text">
+      <a name="text" val="AC &lt;= AC-M(X)"/>
+    </comp>
     <comp lib="6" loc="(223,64)" name="Text">
       <a name="text" val="Instruction Set"/>
       <a name="font" val="SansSerif bold 14"/>
     </comp>
     <comp lib="0" loc="(220,400)" name="Ground"/>
+    <comp lib="6" loc="(219,216)" name="Text">
+      <a name="text" val="AC &lt;= AC OR X"/>
+    </comp>
+    <comp lib="6" loc="(148,155)" name="Text">
+      <a name="text" val="001 1"/>
+    </comp>
     <comp lib="0" loc="(780,550)" name="Probe">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="6" loc="(188,253)" name="Text">
-      <a name="text" val="AC &lt;= AR NOT X"/>
-    </comp>
     <comp loc="(870,300)" name="MUX"/>
-    <comp lib="6" loc="(167,94)" name="Text">
-      <a name="text" val="AC &lt;= X "/>
-    </comp>
     <comp lib="6" loc="(107,353)" name="Text">
       <a name="text" val="JPO"/>
     </comp>
     <comp loc="(630,320)" name="UC"/>
+    <comp lib="6" loc="(149,274)" name="Text">
+      <a name="text" val="100 1"/>
+    </comp>
     <comp lib="6" loc="(947,94)" name="Text">
       <a name="text" val="Memória de Dados"/>
     </comp>
     <comp lib="4" loc="(980,460)" name="D Flip-Flop">
       <a name="label" val="OVERFLOW"/>
     </comp>
+    <comp lib="6" loc="(149,235)" name="Text">
+      <a name="text" val="011 1"/>
+    </comp>
     <comp lib="6" loc="(76,375)" name="Text">
       <a name="text" val="E"/>
+    </comp>
+    <comp lib="6" loc="(151,296)" name="Text">
+      <a name="text" val="101 0"/>
     </comp>
     <comp lib="6" loc="(109,334)" name="Text">
       <a name="text" val="JPZ"/>
     </comp>
+    <comp lib="6" loc="(231,335)" name="Text">
+      <a name="text" val="PC &lt;= X SE FLAG Z"/>
+    </comp>
     <comp lib="6" loc="(106,375)" name="Text">
       <a name="text" val="GO"/>
     </comp>
-    <comp lib="6" loc="(193,335)" name="Text">
-      <a name="text" val="PC &lt;= X SE FLAG Z"/>
+    <comp lib="6" loc="(199,374)" name="Text">
+      <a name="text" val="PC &lt;= X"/>
+    </comp>
+    <comp lib="6" loc="(210,173)" name="Text">
+      <a name="text" val="AC &lt;= AC-X"/>
     </comp>
     <comp lib="6" loc="(75,114)" name="Text">
       <a name="text" val="1"/>
     </comp>
-    <comp lib="6" loc="(182,315)" name="Text">
-      <a name="text" val="AC &lt;= AC &gt;&gt; Q"/>
-    </comp>
-    <comp lib="6" loc="(184,214)" name="Text">
-      <a name="text" val="AC &lt;= AC OR X"/>
-    </comp>
-    <comp lib="6" loc="(184,294)" name="Text">
-      <a name="text" val="AC &lt;=  AC &lt;&lt; Q"/>
+    <comp lib="6" loc="(201,94)" name="Text">
+      <a name="text" val="AC &lt;= X "/>
     </comp>
     <comp lib="0" loc="(750,190)" name="Probe">
       <a name="facing" val="west"/>
@@ -461,20 +512,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(110,94)" name="Text">
       <a name="text" val="MOV"/>
     </comp>
-    <comp lib="6" loc="(193,233)" name="Text">
-      <a name="text" val="AC &lt;= AR OR M(X)"/>
+    <comp lib="6" loc="(235,274)" name="Text">
+      <a name="text" val="AC &lt;= AR NOT M(X)"/>
+    </comp>
+    <comp lib="6" loc="(210,115)" name="Text">
+      <a name="text" val="AC &lt;= M(X) "/>
+    </comp>
+    <comp lib="6" loc="(210,137)" name="Text">
+      <a name="text" val="AC &lt;= AC+X "/>
     </comp>
     <comp lib="6" loc="(75,237)" name="Text">
       <a name="text" val="7"/>
     </comp>
-    <comp lib="6" loc="(161,374)" name="Text">
-      <a name="text" val="PC &lt;= X"/>
-    </comp>
     <comp lib="6" loc="(75,133)" name="Text">
       <a name="text" val="2"/>
     </comp>
-    <comp lib="6" loc="(183,196)" name="Text">
-      <a name="text" val="AC &lt;= AC-M(X)"/>
+    <comp lib="6" loc="(150,214)" name="Text">
+      <a name="text" val="011 0"/>
     </comp>
     <comp lib="5" loc="(650,440)" name="Button">
       <a name="label" val="RST"/>
@@ -483,9 +537,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="addrWidth" val="4"/>
       <a name="dataWidth" val="4"/>
     </comp>
-    <comp lib="6" loc="(169,393)" name="Text">
-      <a name="text" val="M(X) &lt;= AC"/>
-    </comp>
     <comp lib="0" loc="(700,100)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="16"/>
@@ -493,8 +544,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(109,214)" name="Text">
       <a name="text" val="OR"/>
     </comp>
-    <comp lib="6" loc="(196,273)" name="Text">
-      <a name="text" val="AC &lt;= AR NOT M(X)"/>
+    <comp lib="6" loc="(221,313)" name="Text">
+      <a name="text" val="AC &lt;= AC &gt;&gt; Q"/>
     </comp>
   </circuit>
   <circuit name="ULA">
